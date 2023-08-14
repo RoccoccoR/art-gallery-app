@@ -1,5 +1,5 @@
 import GlobalStyle from "../styles";
-import "../components/navbar/navbar.css";
+import "../components/Navbar/navbar.css";
 
 export default function App({ Component, pageProps }) {
   return (
