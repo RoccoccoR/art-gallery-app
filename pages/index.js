@@ -1,8 +1,10 @@
-// import ArtPieces from "../components/ArtPieces/ArtPieces.js";
 import useSWR from "swr";
 import ArtPieces from "../components/ArtPieces/ArtPieces ";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
+
+import Navbar from "../components/navbar/navbar";
+
 
 export default function HomePage() {
   const { data, isLoading } = useSWR(
@@ -13,8 +15,9 @@ export default function HomePage() {
   console.log("data is: ", data);
   return (
     <div>
+
       <ArtPieces />
-      <h1>Hello from Next.js</h1>
+      <Navbar />
     </div>
   );
 }
