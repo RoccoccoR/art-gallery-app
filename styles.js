@@ -20,7 +20,6 @@ body {
   height: 100vh;
 }
 
-/* Remove default underline and color styles */
 a {
   text-decoration: none;
   color: inherit;

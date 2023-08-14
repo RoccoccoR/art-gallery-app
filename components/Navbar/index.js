@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <section className="navbar-container">
       <nav className="navbar">
-        <Link href="/spotlight" className="navbar__spotlight">
+        <Link href="#" className="navbar__spotlight">
           Spotlight
         </Link>
         <Link className="navbar__art-pieces" href="#">
