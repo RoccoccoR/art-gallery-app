@@ -1,5 +1,5 @@
 import React from "react";
-import ArtPiecePreview from "../ArtPiecesPreview/ArtPiecesPreview";
+import ArtPiecePreview from "../ArtPiecesPreview/index";
 
 export default function Spotlight({ pieces }) {
   const randomIndex = Math.floor(Math.random() * pieces.length);
