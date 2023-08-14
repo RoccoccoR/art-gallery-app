@@ -1,16 +1,18 @@
+import Link from "next/link";
+
 export default function Navbar() {
   return (
     <section className="navbar-container">
       <nav className="navbar">
-        <a className="navbar__spotlight" href="#">
+        <Link href="/spotlight" className="navbar__spotlight">
           Spotlight
-        </a>
-        <a className="navbar__art-pieces" href="#">
-          Art Pieces
-        </a>
-        <a className="navbar__favourites" href="#">
+        </Link>
+        <Link className="navbar__art-pieces" href="#">
+          Pieces
+        </Link>
+        <Link className="navbar__favourites" href="#">
           Favorites
-        </a>
+        </Link>
       </nav>
     </section>
   );
