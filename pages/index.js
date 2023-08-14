@@ -3,6 +3,9 @@ import ArtPieces from "../components/ArtPieces/ArtPieces ";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
+import Navbar from "../components/navbar/navbar";
+
+
 export default function HomePage() {
   const { data, isLoading } = useSWR(
     "https://example-apis.vercel.app/api/art",
@@ -13,7 +16,8 @@ export default function HomePage() {
   return (
     <div>
       <ArtPieces pieces={data} />
-      <h1>Hello from Next.js</h1>
+      <ArtPieces />
+      <Navbar />
     </div>
   );
 }
