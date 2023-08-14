@@ -1,6 +1,6 @@
 import useSWR from "swr";
 import ArtPieces from "../components/ArtPieces/ArtPieces";
-import Navbar from "../components/navbar/navbar";
+import Navbar from "../components/Navbar/navbar";
 
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
