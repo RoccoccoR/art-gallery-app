@@ -15,7 +15,7 @@ export default function HomePage() {
   console.log("data is: ", data);
   return (
     <div>
-
+      <ArtPieces pieces={data} />
       <ArtPieces />
       <Navbar />
     </div>
