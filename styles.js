@@ -7,8 +7,16 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
 
-  body {
-    margin: 0;
-    font-family: system-ui;
-  }
-`;
+:root {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  height: 100vh;
+}
+  `;
