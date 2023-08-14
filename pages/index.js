@@ -1,4 +1,3 @@
-// import ArtPieces from "../components/ArtPieces/ArtPieces.js";
 import useSWR from "swr";
 import ArtPieces from "../components/ArtPieces/ArtPieces ";
 
@@ -13,7 +12,7 @@ export default function HomePage() {
   console.log("data is: ", data);
   return (
     <div>
-      <ArtPieces />
+      <ArtPieces pieces={data} />
       <h1>Hello from Next.js</h1>
     </div>
   );
