@@ -10,7 +10,7 @@ export default function Navigation() {
         <Link className="navbar__art-pieces" href="/art-pieces">
           Pieces
         </Link>
-        <Link className="navbar__favourites" href="#">
+        <Link className="navbar__favourites" href="/favorites">
           Favorites
         </Link>
       </nav>
