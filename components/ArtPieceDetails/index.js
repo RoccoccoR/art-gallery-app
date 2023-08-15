@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import FavoriteButton from "../FavoriteButton/FavoriteButton";
 
 export default function ArtPieceDetails({ image, title, artist, year, genre }) {
   return (
@@ -11,6 +12,7 @@ export default function ArtPieceDetails({ image, title, artist, year, genre }) {
       <p>{artist}</p>
       <p>{genre}</p>
       <p>{year}</p>
+      <FavoriteButton></FavoriteButton>
     </div>
   );
 }
