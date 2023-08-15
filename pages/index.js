@@ -3,6 +3,7 @@ import useSWR from "swr";
 import { Spotlight } from "../components/Spotlight";
 import Navigation from "../components/Navigation";
 
+
 // the name of the function was HomePage at the beginning
 export default function SpotlightPage({ artPieces }) {
   // getting a random art piece at a time
