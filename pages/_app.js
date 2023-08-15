@@ -1,8 +1,9 @@
 import GlobalStyle from "../styles";
 import useSWR from "swr";
-import "../components/Navigation/navbar.css";
+// import "../components/Navigation/navbar.css";
 import Layout from "../components/Layout";
 import { useState } from "react";
+import "../styles/global.css";
 
 const URL = "https://example-apis.vercel.app/api/art";
 const fetcher = (url) => fetch(url).then((res) => res.json());

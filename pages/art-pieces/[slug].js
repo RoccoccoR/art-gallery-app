@@ -15,7 +15,7 @@ export default function PieceOfArt({ artPieces }) {
   }
 
   return (
-    <>
+    <div className="add a class here">
       <ArtPieceDetails
         image={oneArtPiece.imageSource}
         title={oneArtPiece.name}
@@ -23,6 +23,6 @@ export default function PieceOfArt({ artPieces }) {
         year={oneArtPiece.year}
         genre={oneArtPiece.genre}
       />
-    </>
+    </div>
   );
 }
