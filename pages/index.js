@@ -1,7 +1,6 @@
 import React from "react";
 import useSWR from "swr";
 import { Spotlight } from "../components/Spotlight";
-import Navbar from "../components/Navbar";
 
 export default function SpotlightPage({ artPieces }) {
   function getRandomArtPiece(artPieces) {
@@ -20,10 +19,6 @@ export default function SpotlightPage({ artPieces }) {
     <div>
       <h1>ART GALLERY</h1>
       <Spotlight image={spotlight.imageSource} artist={spotlight.artist} />
-      <Navbar></Navbar>
     </div>
   );
 }
-
-
-
