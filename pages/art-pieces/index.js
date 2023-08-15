@@ -1,5 +1,10 @@
-import ArtPieces from "../../components/ArtPieces/index";
+import ArtPieces from "../../components/ArtPieces";
 
-export default function ArtPiecesPage() {
-  return <ArtPieces />;
+export default function index({ artPieces }) {
+  return (
+    <>
+      <ArtPieces pieces={artPieces} />
+    </>
+  );
 }
+

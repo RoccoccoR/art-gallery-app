@@ -1,9 +1,9 @@
 import React from "react";
-import ArtPiecePreview from "../ArtPiecesPreview/index";
+import ArtPiecePreview from "../ArtPiecesPreview";
 
 export default function ArtPieces({ pieces }) {
   return (
-      <>
+    <>
       {pieces.map((piece) => (
         <ArtPiecePreview
           key={piece.slug}
@@ -12,7 +12,6 @@ export default function ArtPieces({ pieces }) {
           artist={piece.artist}
         />
       ))}
-      </>
+    </>
   );
 }
-
