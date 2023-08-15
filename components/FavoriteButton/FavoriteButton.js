@@ -6,7 +6,11 @@ export default function FavoriteButton() {
 
   return (
     <button onClick={() => {}} aria-label="favorite">
-      {isFavorite ? <Image src={favoriteImage} /> : "set the empty svg"}
+      {isFavorite ? (
+        <Image src={favoriteImage} alt={`Favorite Button`} />
+      ) : (
+        "set the empty svg"
+      )}
     </button>
   );
 }
