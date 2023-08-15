@@ -8,7 +8,7 @@ export default function SpotlightPage({ artPieces }) {
   // getting a random art piece at a time
   function getRandomArtPiece(artPieces) {
     const randomIndex = Math.floor(Math.random() * artPieces.length);
-    console.log("randomIndex", randomIndex);
+    // console.log("randomIndex", randomIndex);
     return artPieces[randomIndex];
   }
 
