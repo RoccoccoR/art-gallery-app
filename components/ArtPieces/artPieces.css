@@ -1,0 +1,6 @@
+.artPieces-container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  padding: 1rem;
+}

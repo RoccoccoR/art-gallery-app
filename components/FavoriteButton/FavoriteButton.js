@@ -10,12 +10,10 @@ export default function FavoriteButton() {
   };
 
   return (
-    <button onClick={toggleFavorite} aria-label="favorite">
-      {isFavorite ? (
-        <Image src={favoriteImage} alt={`Favorite Button`} />
-      ) : (
-        <p>❓</p>
-      )}
-    </button>
+    <div className="favoriteButton">
+      <button onClick={toggleFavorite} aria-label="favorite">
+        {isFavorite ? <span>💚</span> : <span>🤍</span>}
+      </button>
+    </div>
   );
 }

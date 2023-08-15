@@ -3,7 +3,8 @@ import ArtPiecePreview from "../ArtPiecesPreview";
 
 export default function ArtPieces({ pieces }) {
   return (
-    <>
+    <div className="artPieces-container">
+      <h1>ART GALLERY</h1>
       {pieces.map((piece) => (
         <ArtPiecePreview
           key={piece.slug}
@@ -13,6 +14,6 @@ export default function ArtPieces({ pieces }) {
           slug={piece.slug}
         />
       ))}
-    </>
+    </div>
   );
 }
