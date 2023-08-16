@@ -1,6 +1,20 @@
 .artPieces-container {
   display: flex;
   flex-direction: column;
-  background-color: lightblue;
+  background-color: lightgray;
   padding: 1rem;
+  border-radius: 50px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.art-piece-title-button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.art-piece-title {
+  margin-right: 20px;
 }
