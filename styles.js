@@ -28,19 +28,17 @@ a {
 
 a:link,
 a:visited {
-  color: blue; /* You can change this to the desired default link color */
+  color: black; /* You can change this to the desired default link color */
 }
 
 a:hover,
 a:focus {
-  color: purple; /* Change this color to your preferred hover color */
+  color: blue; /* Change this color to your preferred hover color */
 }
 
 /* Style links when they are active (clicked) */
 a:active {
   color: red; /* Change this color to your preferred active color */
 }
-
-
 
   `;

@@ -41,14 +41,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.navbar__home-img:hover,
-.navbar__home-img:focus,
-.navbar__bookmark-img:hover,
-.navbar__bookmark-img:focus,
-.navbar__profile-img:hover,
-.navbar__profile-img:focus,
-.navbar__add-question-img:hover,
-.navbar__add-question-img:focus {
-  animation: rotateOnce 0.7s forwards;
-}

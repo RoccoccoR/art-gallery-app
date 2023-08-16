@@ -6,9 +6,11 @@ import Link from "next/link";
 export default function Spotlight({ image, artist, slug }) {
   return (
     <div className="spotlight">
-      <Image src={image} alt={`${artist}`} width={300} height={300} />
-      <p>{artist}</p>
-      <FavoriteButton />
+      <Image src={image} alt={`${artist}`} width={400} height={400} />
+      <div className="art-piece-title-button-container">
+        <span className="art-piece-title">{artist}</span>
+        <FavoriteButton />
+      </div>
     </div>
   );
 }

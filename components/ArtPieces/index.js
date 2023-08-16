@@ -5,7 +5,7 @@ export default function ArtPieces({ pieces }) {
   return (
     <div className="artPieces-container">
       <h1>ART GALLERY</h1>
-      {pieces.map((piece) => (
+      {pieces.map((piece, index) => (
         <ArtPiecePreview
           key={piece.slug}
           image={piece.imageSource}
@@ -14,6 +14,8 @@ export default function ArtPieces({ pieces }) {
           slug={piece.slug}
         />
       ))}
+      {/* Spacer element */}
+      <div style={{ height: "80px" }} />
     </div>
   );
 }
